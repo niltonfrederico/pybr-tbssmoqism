@@ -7,9 +7,11 @@
     github?: string
     telegram?: string
     bluesky?: string
+    heading?: string
     highlight_telegram?: boolean
   }>()
 
+  const heading = computed(() => props.heading ?? 'Redes sociais!')
   const highlightTelegram = computed(() => props.highlight_telegram ?? false)
 
   import type { Level, RenderAs, GradientType, ImageSettings } from 'qrcode.vue'
@@ -79,7 +81,7 @@
   <div class="slidev-layout about-me p-0">
     <div class="flex w-full">
       <div class="w-full justify-between px-8 py-14">
-        <h1 class="flex">Redes!</h1>
+        <h1 class="flex">{{ heading }}</h1>
       </div>
     </div>
     <div class="flex h-full w-full">

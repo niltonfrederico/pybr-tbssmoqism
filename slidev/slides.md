@@ -289,6 +289,18 @@ background: ./assets/slide-04-bg.jpg
 # CVSS
 ## 3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
 
+<!--
+3.1 -> Versão
+AV:N -> Access Vector: Network (N = Network, A = Adjacent, L = Local, P = Physical)
+AC:L -> Access Complexity: Low (L = Low, H = High)
+PR:N -> Privileges Required: None (N = None, L = Low, H = High)
+UI:N -> User Interaction: None (N = None, R = Required)
+S:U -> Scope: Unchanged (Changed significa que afeta mais que o escopo da vulnerabilidade)
+C:H -> Confidentiality: High (N = None, L = Low, H = High)
+I:N -> Integrity: None (N = None, L = Low, H = High)
+A:N -> Availability: None (N = None, L = Low, H = High)
+-->
+
 ---
 transition: fade
 layout: cover
@@ -340,6 +352,8 @@ background: ./assets/slide-04-bg.jpg
 
 # Não dá!
 
+<!-- Explique que não dá pois se proteger não significa que nada de ruim irá acontecer mas que o risco de exploração diminui -->
+
 ---
 transition: slide-up
 layout: cover
@@ -359,12 +373,24 @@ background: ./assets/slide-04-bg.jpg
 
 ---
 transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# Existem dois tipos de problemas:
+
+## Meus problemas, os problemas dos outros e nossos problemas.
+
+<!-- Piada com discalculia -->
+
+---
+transition: fade
 layout: image-right
 background: ./assets/slide-04-bg.jpg
 image: ./assets/dick.jpg
 ---
 
-# Bandit
+# Meus problemas: Bandit
 
 Instalação:
 
@@ -387,7 +413,7 @@ background: ./assets/slide-04-bg.jpg
 image: ./assets/dredd.jpg
 ---
 
-# pip-audit
+# Problemas dos outros: pip-audit
 
 Instalação:
 
@@ -404,13 +430,13 @@ pip-audit --recursive
 Live coding time!
 -->
 ---
-transition: fade
+transition: slide-up
 layout: image-right
 background: ./assets/slide-04-bg.jpg
 image: ./assets/dependabot.svg
 ---
 
-# dependabot
+# Nossos problemas: dependabot
 
 Instalação? [No seu repositório do github!](https://github.com/niltonfrederico/aetna_core/security/dependabot)
 
@@ -419,3 +445,20 @@ Mostre suas vulnerabilidades.
 Mostre as configurações.
 Fale sobre o .github/dependabot.yml
 -->
+
+---
+transition: slide-up
+layout: about-me-social
+
+linkedin: https://www.linkedin.com/in/nilton-teixeira/
+github: https://github.com/niltonfrederico/
+telegram: https://t.me/kuresto
+bluesky: https://bsky.app/profile/kuresto.bsky.social
+heading: Q/A
+---
+
+---
+transition: fade-out
+layout: cover
+background: ./assets/slide-00-bg.png
+---
