@@ -22,11 +22,11 @@
         <h1 class="flex">Curiosidades!</h1>
 
         <div class="flex w-full">
-          <img src="/assets/bissexual.png" width="64em" style="display: inline; margin-right: 1em" />
-          <img src="/assets/adhd.png" width="64em" style="display: inline; margin-right: 1em" />
-          <img src="/assets/dyslexia.png" width="64em" style="display: inline; margin-right: 1em" />
-          <img src="/assets/dyscalculia.png" width="64em" style="display: inline; margin-right: 1em" />
-          <img src="/assets/high-abilities.png" width="64em" style="display: inline; margin-right: 8px" />
+          <img src="/assets/bissexual.png" width="64em" style="display: inline; margin-right: 1em" v-click />
+          <img src="/assets/adhd.png" width="64em" style="display: inline; margin-right: 1em" v-click />
+          <img src="/assets/dyslexia.png" width="64em" style="display: inline; margin-right: 1em" v-click />
+          <img src="/assets/dyscalculia.png" width="64em" style="display: inline; margin-right: 1em" v-click />
+          <img src="/assets/high-abilities.png" width="64em" style="display: inline; margin-right: 8px" v-click />
         </div>
 
         <div class="flex flex-col justify-end text-xl" :class="[textItems, textAlign]">

@@ -15,14 +15,15 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.dependencies]
-python = ">=3.13"
+python = ">=3.13,<4.0"
 django = "^5.2.7"
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.14.2"
 ipdb = "^0.13.13"
 mypy = "^1.18.2"
+bandit = "^1.8.6"
 django-stubs = "^5.2.7"
+pip-audit = "^2.9.0"
 
 
 [tool.ruff]
@@ -87,7 +88,6 @@ select = [
     "ERA", # eradicate
     "PL",  # pylint
     "RUF", # ruff-specific
-    "S",   # flake8-bandit (security)
 ]
 
 # Specifically ignore certain rules

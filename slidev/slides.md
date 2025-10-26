@@ -16,7 +16,7 @@ background: ./assets/slide-00-bg.png
 
 Fiquem confortáveis! <br />
 Vocês caíram na minha carta armadilha! <br />
-Essa talk na verdade é sobre **linguística**.
+Essa talk na verdade é sobre **linguística** e **biologia**.
 
 <!--
 This is a **note**
@@ -66,11 +66,12 @@ layout: cover
 background: ./assets/slide-00-bg.png
 ---
 
-# Cat Tax em 3<v-click>, 2</v-click><v-click>, 1</v-click>...
+# Imposto felino em 3<v-click>, 2</v-click><v-click>, 1</v-click>...
 
 ---
 transition: slide-up
 layout: two-cols
+background: ./assets/slide-00-bg.png
 ---
 
 <img src="./assets/cat-tax-connie.jpg" />
@@ -103,6 +104,7 @@ bluesky: https://bsky.app/profile/kuresto.bsky.social
 ---
 transition: fade
 layout: section
+background: ./assets/slide-01-bg.jpg
 ---
 
 Tudo que é importante começa com uma indagação...
@@ -110,6 +112,7 @@ Tudo que é importante começa com uma indagação...
 ---
 transition: fade
 layout: section
+background: ./assets/slide-01-bg.jpg
 ---
 
 <h1>Se a terra é redonda, por que ela se chama <b>planeta</b> e não redondeta?</h1>
@@ -120,6 +123,7 @@ layout: section
 ---
 transition: fade
 layout: section
+background: ./assets/slide-01-bg.jpg
 ---
 
 **Planeta** vem do grego antigo **πλανήτης**, que significa algo como "andarilho" ou "errante", e não tem nada a ver com a forma da Terra, mas sim com o tipo de movimento que ela e os demais planetas realizam.
@@ -127,6 +131,7 @@ layout: section
 ---
 transition: fade
 layout: section
+background: ./assets/slide-01-bg.jpg
 ---
 
 <h1>Tá, e eu com isso?</h1>
@@ -134,6 +139,7 @@ layout: section
 ---
 transition: fade
 layout: section
+background: ./assets/slide-01-bg.jpg
 ---
 
 <h1>Simples! A origem da palavra, da informação, seu contexto, define seu uso! Ela pode significar "errante" mas você não chama um viajante de planeta!</h1>
@@ -141,6 +147,7 @@ layout: section
 ---
 transition: fade
 layout: section
+background: ./assets/slide-01-bg.jpg
 ---
 
 <h1>Seres humanos são criaturas sociais. E na maioria das vezes começamos a nos relacionar com a seguinte indagação: <b>"Qual o seu nome?"</b></h1>
@@ -208,6 +215,17 @@ background: ./assets/slide-04-bg.jpg
 
 # Não? Vamos tentar de outra forma...
 
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# Taxonomia
+
+## Taxonomia é o estudo da organização e classificação dos seres vivos, que agrupa organismos com base em características comuns e relações evolutivas.
+
+## Reino -> Filo -> Classe -> Ordem -> Família -> Gênero -> Espécie
 
 ---
 transition: fade
@@ -215,11 +233,9 @@ layout: cover
 background: ./assets/slide-04-bg.jpg
 ---
 
-# CWE
+# Taxonomia de uma vulnerabilidade
 
-## Common Weaknesses Enumeration
-
-## Tipo. Ou seja, a vulnerabilidade em si. <br> <small><b>Exemplo:</b> CWE-126: Buffer Over-read</small>
+## Não necessariamente é uma hierarquia (pois sua ordem pode variar), mas a relação é similar o bastante.
 
 ---
 transition: fade
@@ -227,11 +243,42 @@ layout: cover
 background: ./assets/slide-04-bg.jpg
 ---
 
-# CVE
+## **A vulnerabilidade** <br /> <v-click>é tipificada por uma CWE <br /></v-click> <v-click>é identificada por uma CVE <br /></v-click> <v-click>é classificada por uma CVSS <br /></v-click> <v-click>é demonstrada por uma CAPEC</v-click>
 
-## Common Vulnerabilities and Exposures
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
 
-## Quem. <br> <small><b>Exemplo:</b> CVE-2014-0160 - Heartbleed</small>
+## Mas só existe uma **vulnerabilidade** se existe valor em explorá-la! Todo exploit visa a atacar um dos pilares de segurança: <br /> <v-click>Confidencialidade</v-click><v-click>, Integridade</v-click><v-click>, Disponibilidade</v-click><v-click>, Autenticidade</v-click><v-click> e Irretrabilidade</v-click>
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+## Nosso exemplo: **Heartbleed**. <br> <small>(Provavelmente a segunda vulnerabilidade mais famosa, atrás apenas do SQL Injection)</small>
+
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# CWE-126
+## [Buffer Over-read](https://cwe.mitre.org/data/definitions/126.html)
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# CVE-2014-0160
+## [SSL/TLS Heartbeat Extension Memory Leak](https://nvd.nist.gov/vuln/detail/CVE-2014-0160)
 
 ---
 transition: fade
@@ -240,10 +287,7 @@ background: ./assets/slide-04-bg.jpg
 ---
 
 # CVSS
-
-## Common Vulnerability Scoring System
-
-## Quando (priorizar). <br> <small><b>Exemplo:</b> Base: 7.5 HIGH, CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</small>
+## 3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
 
 ---
 transition: fade
@@ -251,8 +295,127 @@ layout: cover
 background: ./assets/slide-04-bg.jpg
 ---
 
-# CAPEC
+# CVSS
+## <v-click>3.1</v-click><v-click>/AV:N</v-click><v-click>/AC:L</v-click><v-click>/PR:N</v-click><v-click>/UI:N</v-click><v-click>/S:U</v-click><v-click>/C:H</v-click><v-click>/I:N</v-click><v-click>/A:N</v-click>
 
-## Common Attack Pattern Enumeration and Classification
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
 
-## Como. <br> <small><b>Exemplo:</b> CAPEC-540: Overread Buffers</small>
+# CAPEC-540
+## [Overread Buffers](https://capec.mitre.org/data/definitions/540.html)
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# Opnião
+## [CVE Feed](https://cvefeed.io/vuln/detail/CVE-2025-59681) é um bom agregador de informações sobre vulnerabilidades.
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# E como posso me proteger?
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# Simples!
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# Não dá!
+
+---
+transition: slide-up
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+## Proteger não significa que vulnerabilidades passam a mágicamente não existir. <br /> <small>Nem tampouco que não serão exploradas.</small> <br /><v-click><b>Mas podemos mitiga-las!</b></v-click>
+
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# Cade o Python?
+
+---
+transition: fade
+layout: image-right
+background: ./assets/slide-04-bg.jpg
+image: ./assets/dick.jpg
+---
+
+# Bandit
+
+Instalação:
+
+```python
+pip install bandit
+```
+
+E para executar:
+
+```python
+bandit -r .
+```
+<!--
+Live coding time!
+-->
+---
+transition: fade
+layout: image-right
+background: ./assets/slide-04-bg.jpg
+image: ./assets/dredd.jpg
+---
+
+# pip-audit
+
+Instalação:
+
+```python
+pip install pip-audit
+```
+
+E para executar:
+
+```python
+pip-audit --recursive
+```
+<!--
+Live coding time!
+-->
+---
+transition: fade
+layout: image-right
+background: ./assets/slide-04-bg.jpg
+image: ./assets/dependabot.svg
+---
+
+# dependabot
+
+Instalação? [No seu repositório do github!](https://github.com/niltonfrederico/aetna_core/security/dependabot)
+
+<!--
+Mostre suas vulnerabilidades.
+Mostre as configurações.
+Fale sobre o .github/dependabot.yml
+-->
