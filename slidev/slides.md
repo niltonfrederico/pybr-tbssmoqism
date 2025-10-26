@@ -1,6 +1,13 @@
 ---
-transition: slide-up
+transition: fade
 theme: the-unnamed
+layout: cover
+background: ./assets/slide-00-bg.png
+---
+
+
+---
+transition: slide-up
 layout: cover
 background: ./assets/slide-00-bg.png
 ---
@@ -25,14 +32,14 @@ background: ./assets/slide-00-bg.png
 # **Quem sou eu?**
 
 ---
-transition: fade-in
+transition: fade
 layout: about-me
 
 helloMsg: Olá seres da quinta dimensão!
 name: Nilton Frederico
 imageSrc: ./assets/slide-02-bg.png
 position: left
-job: Python Specialist @ Juntos Somos Mais
+job: Python Specialist @ JS+
 ---
 
 
@@ -92,3 +99,160 @@ github: https://github.com/niltonfrederico/
 telegram: https://t.me/kuresto
 bluesky: https://bsky.app/profile/kuresto.bsky.social
 ---
+
+---
+transition: fade
+layout: section
+---
+
+Tudo que é importante começa com uma indagação...
+
+---
+transition: fade
+layout: section
+---
+
+<h1>Se a terra é redonda, por que ela se chama <b>planeta</b> e não redondeta?</h1>
+<div style="text-align: right;">
+- Alguém, provavelmente.
+</div>
+
+---
+transition: fade
+layout: section
+---
+
+**Planeta** vem do grego antigo **πλανήτης**, que significa algo como "andarilho" ou "errante", e não tem nada a ver com a forma da Terra, mas sim com o tipo de movimento que ela e os demais planetas realizam.
+
+---
+transition: fade
+layout: section
+---
+
+<h1>Tá, e eu com isso?</h1>
+
+---
+transition: fade
+layout: section
+---
+
+<h1>Simples! A origem da palavra, da informação, seu contexto, define seu uso! Ela pode significar "errante" mas você não chama um viajante de planeta!</h1>
+
+---
+transition: fade
+layout: section
+---
+
+<h1>Seres humanos são criaturas sociais. E na maioria das vezes começamos a nos relacionar com a seguinte indagação: <b>"Qual o seu nome?"</b></h1>
+
+---
+transition: slide-up
+theme: the-unnamed
+layout: image
+image: ./assets/slide-03-bg.png
+---
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# Vulnerabilidades
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# CWE
+
+## Common Weaknesses Enumeration
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# CVE
+
+## Common Vulnerabilities and Exposures
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# CVSS
+
+## Common Vulnerability Scoring System
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# CAPEC
+
+## Common Attack Pattern Enumeration and Classification
+
+---
+transition: slide-up
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# Não? Vamos tentar de outra forma...
+
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# CWE
+
+## Common Weaknesses Enumeration
+
+## Tipo. Ou seja, a vulnerabilidade em si. <br> <small><b>Exemplo:</b> CWE-126: Buffer Over-read</small>
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# CVE
+
+## Common Vulnerabilities and Exposures
+
+## Quem. <br> <small><b>Exemplo:</b> CVE-2014-0160 - Heartbleed</small>
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# CVSS
+
+## Common Vulnerability Scoring System
+
+## Quando (priorizar). <br> <small><b>Exemplo:</b> Base: 7.5 HIGH, CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</small>
+
+---
+transition: fade
+layout: cover
+background: ./assets/slide-04-bg.jpg
+---
+
+# CAPEC
+
+## Common Attack Pattern Enumeration and Classification
+
+## Como. <br> <small><b>Exemplo:</b> CAPEC-540: Overread Buffers</small>
