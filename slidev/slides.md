@@ -271,6 +271,8 @@ background: ./assets/slide-04-bg.jpg
 # CWE-126
 ## [Buffer Over-read](https://cwe.mitre.org/data/definitions/126.html)
 
+<!-- CWE = Common Weakness Enumeration -->
+
 ---
 transition: fade
 layout: cover
@@ -280,6 +282,8 @@ background: ./assets/slide-04-bg.jpg
 # CVE-2014-0160
 ## [SSL/TLS Heartbeat Extension Memory Leak](https://nvd.nist.gov/vuln/detail/CVE-2014-0160)
 
+<!-- CVE = Common Vulnerabilities and Exposures -->
+
 ---
 transition: fade
 layout: cover
@@ -287,9 +291,9 @@ background: ./assets/slide-04-bg.jpg
 ---
 
 # CVSS
-## 3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+## Base Score 7.5 - 3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
 
-<!--
+<!-- CVSS = Common Vulnerability Scoring System
 3.1 -> Versão
 AV:N -> Access Vector: Network (N = Network, A = Adjacent, L = Local, P = Physical)
 AC:L -> Access Complexity: Low (L = Low, H = High)
@@ -308,7 +312,19 @@ background: ./assets/slide-04-bg.jpg
 ---
 
 # CVSS
-## <v-click>3.1</v-click><v-click>/AV:N</v-click><v-click>/AC:L</v-click><v-click>/PR:N</v-click><v-click>/UI:N</v-click><v-click>/S:U</v-click><v-click>/C:H</v-click><v-click>/I:N</v-click><v-click>/A:N</v-click>
+## Base Score 7.5 - <v-click>3.1</v-click><v-click>/AV:N</v-click><v-click>/AC:L</v-click><v-click>/PR:N</v-click><v-click>/UI:N</v-click><v-click>/S:U</v-click><v-click>/C:H</v-click><v-click>/I:N</v-click><v-click>/A:N</v-click>
+
+<!-- CVSS = Common Vulnerability Scoring System
+3.1 -> Versão
+AV:N -> Access Vector: Network (N = Network, A = Adjacent, L = Local, P = Physical)
+AC:L -> Access Complexity: Low (L = Low, H = High)
+PR:N -> Privileges Required: None (N = None, L = Low, H = High)
+UI:N -> User Interaction: None (N = None, R = Required)
+S:U -> Scope: Unchanged (Changed significa que afeta mais que o escopo da vulnerabilidade)
+C:H -> Confidentiality: High (N = None, L = Low, H = High)
+I:N -> Integrity: None (N = None, L = Low, H = High)
+A:N -> Availability: None (N = None, L = Low, H = High)
+-->
 
 ---
 transition: fade
@@ -318,6 +334,8 @@ background: ./assets/slide-04-bg.jpg
 
 # CAPEC-540
 ## [Overread Buffers](https://capec.mitre.org/data/definitions/540.html)
+
+<!-- CAPEC = Common Attack Pattern Enumeration and Classification -->
 
 ---
 transition: fade
@@ -350,7 +368,7 @@ layout: cover
 background: ./assets/slide-04-bg.jpg
 ---
 
-# Não dá!
+# Não dá... <v-click>ainda</v-click>
 
 <!-- Explique que não dá pois se proteger não significa que nada de ruim irá acontecer mas que o risco de exploração diminui -->
 
@@ -405,6 +423,8 @@ bandit -r .
 ```
 <!--
 Live coding time!
+
+Integre com o pré-commit.
 -->
 ---
 transition: fade

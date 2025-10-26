@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      time: "08:00"
+      day: "sunday"
+    target-branch: "develop"
+    groups:
+      patches:
+        update-types:
+          - patch
